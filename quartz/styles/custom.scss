@@ -1,3 +1,69 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+/* SECURE BY DESIGN THEME */
+
+article {
+  line-height: 1.8;
+}
+
+article h1 {
+  color: var(--secondary);
+}
+
+article h2 {
+  border-bottom: 1px solid var(--lightgray);
+  padding-bottom: 0.45rem;
+}
+
+article h3 {
+  color: var(--tertiary);
+}
+
+.page-title a {
+  color: var(--secondary);
+}
+
+article blockquote {
+  border-left: 3px solid #8B5CF6;
+}
+
+article table {
+  width: 100%;
+}
+
+article th {
+  background: rgba(139, 92, 246, 0.13);
+}
+
+article tr:nth-child(even) {
+  background: rgba(139, 92, 246, 0.04);
+}
+
+article pre {
+  border-radius: 10px;
+}
+
+article details {
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  padding: 0.8rem;
+  margin: 1rem 0;
+}
+
+article summary {
+  cursor: pointer;
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+article a:hover {
+  color: var(--tertiary);
+}
+
+::selection {
+  background: #8B5CF6;
+  color: white;
+}
+
